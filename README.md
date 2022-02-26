@@ -1,6 +1,6 @@
 # Prerequisites
 - Linux Mint 20
-- NVidia graphics card and the `nvidia-settings` program
+- Nvidia graphics card and the `nvidia-settings` program
 - Must have run `sudo nvidia-xconfig --cool-bits=4`
 
 # Installation
