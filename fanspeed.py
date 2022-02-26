@@ -39,7 +39,7 @@ def calculate_new_speed(temp):
     #         new_speed = temp_curve[i - 1][1]
     #         break
     # return new_speed
-    return temp + 5 # just make it 5% more than the temp in celsius
+    return temp + 5 if temp < 96 else 100 # just make it 5% more than the temp in celsius
 
 
 def set_fan_speed(speed):
