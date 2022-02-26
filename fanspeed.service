@@ -1,0 +1,10 @@
+# put at /etc/systemd/system/fanspeed.service
+
+[Unit]
+Description=Nvidia Fan Speed Script
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/bin/fanspeed.py
+
+[Install]
+WantedBy=multi-user.target
