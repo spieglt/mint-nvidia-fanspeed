@@ -1,3 +1,6 @@
+# Note
+This isn't working consistently. May just have to run the script at login, and reset when waking from sleep or something.
+
 # Rationale
 On Linux Mint with Nvidia drivers, when the GPU isn't under much load, the fans turn off and on every few seconds, and the bearings make an annoying grinding noise. This script/service runs once per second, takes the current temperature in Celsius, adds 5 to it, and sets the fans to run at that percent speed. GPU at 30 degrees == fans at 35%. GPU at 95 degrees == fans at 100%.
 
